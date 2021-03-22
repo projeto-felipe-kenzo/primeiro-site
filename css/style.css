@@ -1,7 +1,7 @@
 body{
-		background-color: #4B0082;
+		background-color: #7B68EE;
 		font-size: 20px;
-		width: 90%;
+		width: 80%;
 		margin-left: auto;
 		margin-right: auto;
 
@@ -18,20 +18,26 @@ body{
 
 		h1,h2{
 		text-align: center;
+		border-style: double;
 		color: #1C1C1C;
 		font-size: 50px;
 		font-family:"Times New Roman", Times, serif;
+	}
+	    table{
+        border-collapse: collapse;
+        width: 100%;
 
+   
+    }
+        td, th{
+        	border: 5px groove #fff;
+        	text-align: center;
+        	padding: 5px;
 
-
-
-
-
-		}
+    }
 
 		p{
 		border-style: double;
-		border:5px solid #fff;
 		background-color:LightGray;
 			
 
@@ -39,6 +45,19 @@ body{
 
 		}
 
+
+	}
+	    ul,li{
+	    	text-decoration: underline;
+	    	color: #fff;
+	    	font-weight: bolder;
+}
+	    ol,li{
+	    	text-decoration: underline;
+	    	color: #fff;
+	    	font-weight: bolder;
+
+}
 		figure{
 
 			text-align: center;
@@ -51,7 +70,6 @@ body{
 
 img{
 	width: 100%;
-}
 }
 <style>
 a:link {
@@ -76,9 +94,9 @@ a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+{
 }
 </style> 
-
 
 
 
