@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entendendo o Position</title>
+</head>
+<style type="text/css">
+
+	.fixo{
+
+		position: fixed;
+		top:0;
+		right:0;
+		left:0;
+		z-index: 1030;
+		background-color: lightblue;
+
+
+	}
+
+	.main{
+		margin-top: 8%;
+
+
+	}
+	.container{
+		position: relative;
+		background-color: pink;
+		width: 100%;
+		height: 1220px;
+		text-align: center;
+	}
+
+	.topoesquerda{
+		position: absolute;
+		top: 16px;
+		left: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color:purple;
+
+	}
+
+	.topodireita{
+		position: absolute;
+		top: 16px;
+		right: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color:white;
+
+	}
+
+	.abaixoesquerda{
+		position: absolute;
+		bottom: 16px;
+		left: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color:red;
+	}
+
+	.abaixodireita{
+		position: absolute;
+		bottom: 16px;
+		right: 16px;
+		font-size: 18px;
+		width: 20%;
+		background-color:gray;
+	}
+
+	.centro {
+		position: absolute;
+		top: 50%;
+		margin-left: 40%;
+		font-size: 18px;
+		width: 20%;
+		background-color:lightgreen;
+	}
+
+	img{
+
+		width: 100%;
+		height: 1220px;
+	}
+	
+
+
+
+</style>
+<body>
+	<header class="fixo">
+		<h1>Testando Posicionamento</h1>
+		
+
+	</header>
+	<div class="main">
+		<h1>Testando...</h1>
+		<div class="container">
+			<img src="img/670781.jpg">
+			<div class="topoesquerda"> No Topo Esquerdo</div>
+			<div class="topodireita"> No Topo Direito </div>
+			<div class="abaixoesquerda"> Abaixo Esquerdo </div>
+			<div class="abaixodireita"> Abaixo Direita </div>
+			<div class="centro"> Centro </div>
+			<p class="melanie">Volte para a primeira página <a href="index.html"target="_blank">aqui</a></p>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
