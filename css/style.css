@@ -1,27 +1,27 @@
-body{
-		
+	body{
+			
 		font-size: 20px;
 		background-image: url(../img/670781.jpg);
 		background-repeat: round;
 
 	}
 
-header{
+	header{
 
-width: auto;
-background-color: rgba(221,160,221,0.3);
-padding: 5%;
-text-align: center;
+		width: auto;
+		background-color: rgba(221,160,221,0.3);
+		padding: 5%;
+		text-align: center;
 
-}
-footer{
-width: auto;
-background-color: rgba(221,160,221,0.3);
-padding: 5%;
-text-align: center;
+	}
+	footer{
+		width: auto;
+		background-color: rgba(221,160,221,0.3);
+		padding: 5%;
+		text-align: center;
 
 
-}
+	}
 		
 
 	}
@@ -44,21 +44,24 @@ text-align: center;
 
 		}
 
-	.titulos{
+		.titulos{
 
-		text-align: center;
-		border-style: groove;
-		color: #C71585;
-		font-size: 2em;
-	    font-family: 'Crete Round', serif;
-	}
+			text-align: center;
+			border-style: groove;
+			color: #C71585;
+			font-size: 2em;
+		    font-family: 'Crete Round', serif;
+		    text-shadow: 2px 2px 5px lightpink;
+
+		}
 
 
-	}
+		}
 		
 
 	    h1{
 	    	text-align: 3em;
+
 
 
 	}
@@ -69,10 +72,10 @@ text-align: center;
 
 	}
 	    table{
-        border-collapse: collapse;
-        width: 80%;
-        margin-right: auto;
-        margin-left:auto;
+        	border-collapse: collapse;
+        	width: 80%;
+        	margin-right: auto;
+        	margin-left:auto;
 
    
     }
@@ -88,25 +91,27 @@ text-align: center;
     }
 
 		p{
-		border-style: double;
-		background-color:(25,25,112,0.5);
-		font-size: 17px;
-		margin-top: 2%;
-		margin-bottom: 2%;
-		width: 80%;
-		margin-right: auto;
-		margin-left: auto;
-        color:#fff;
+			border-style: double;
+			background-color:(25,25,112,0.5);
+			font-size: 17px;
+			margin-top: 2%;
+			margin-bottom: 2%;
+			width: 80%;
+			margin-right: auto;
+			margin-left: auto;
+       	 	color:#fff;
+       	 	box-shadow: 2px 2px lightpink;
+       	 	text-shadow: 2px 2px 5px lightpink;
 
 
 	}
 
-	.melanie{
-		
-		text-align: center;
-	}
+		.melanie{
 			
+			text-align: center;
 		}
+				
+			}
 
 
 	}
@@ -137,43 +142,45 @@ text-align: center;
 			text-align: center;
 			
 
-
-
-
-
-
-		}
-
-
-img{
-	width: 50%;
-	border: 5px dashed #EE82EE;
 }
-<style>
-a:link {
-  color: green; 
-  background-color: transparent; 
-  text-decoration: underline;
-}
+		
 
-a:visited {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
 
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
-{
+	img{
+		width: 50%;
+		border: 5px dashed #EE82EE;
+		border-radius: 50%;
+	}
+
+	
+  	
 }
+	<style>
+	a:link {
+	  color: green; 
+	  background-color: transparent; 
+	  text-decoration: underline;
+	}
+
+	a:visited {
+	  color: yellow;
+	  background-color: transparent;
+	  text-decoration: underline;
+	}
+
+	a:hover {
+	  color: red;
+	  background-color: transparent;
+	  text-decoration: underline;
+	}
+
+	a:active {
+	  color: yellow;
+	  background-color: transparent;
+	  text-decoration: underline;
+	{
+	}
 </style> 
 
 

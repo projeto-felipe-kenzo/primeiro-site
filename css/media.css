@@ -1,0 +1,33 @@
+
+/* quando a tela for de 600px ou menor */
+@media screen and (max-width: 600px){
+
+.exemplo1{
+	background-color: purple;
+
+}
+	h1{
+		display:none;
+
+	}
+
+
+}
+
+/*quando a tela for mais de 601px */
+@media screen and (min-width: 601px){
+
+.exemplo2{
+	background-color: lightpink;
+	width: 50%;
+	box-shadow: 10px 10px;
+
+}
+	h1{
+		box-shadow: 4px 4px;
+
+
+	}
+
+	
+}
