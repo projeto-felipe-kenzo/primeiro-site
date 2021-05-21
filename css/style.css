@@ -1,55 +1,65 @@
+
+
+
 	body{
 			
 		font-size: 20px;
 		background-image: url(../img/670781.jpg);
 		background-repeat: round;
 
-	}
+	
 
-	header{
+				
+				
+}
+
+	header, footer{
 
 		width: auto;
-		background-color: rgba(221,160,221,0.3);
-		padding: 5%;
-		text-align: center;
+		background-color: rgba(221,160,221);
+		padding: 1%;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		font-size: 1em;
+		line-height: 1.5;
 
-	}
-	footer{
-		width: auto;
-		background-color: rgba(221,160,221,0.3);
-		padding: 5%;
-		text-align: center;
-
-
-	}
+	
 		
 
 	}
 
+	.fixo{
+
+		position:fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+	}
+
 	.container{
+
+		
 		width: 80%;
 		margin-left: auto;
-		margin-right: auto
+		margin-right: auto;
 	    color:#fff;
+	    position:relative;
 	}
 
 
 
 
-		}
-
-		div{
-		font-size: 1em;
 
 
-		}
+	.titulos{
 
-		.titulos{
-
-			text-align: center;
-			border-style: groove;
-			color: #C71585;
-			font-size: 2em;
+		text-align: center;
+		border-style: groove;
+		color: #C71585;
+		font-size: 2em;
 		    font-family: 'Crete Round', serif;
 		    text-shadow: 2px 2px 5px lightpink;
 
@@ -60,7 +70,7 @@
 		
 
 	    h1{
-	    	text-align: 3em;
+	    	text-align: 2em;
 
 
 
@@ -91,9 +101,8 @@
     }
 
 		p{
-			border-style: double;
-			background-color:(25,25,112,0.5);
-			font-size: 17px;
+			border-style: double;			
+			font-size: 14px;
 			margin-top: 2%;
 			margin-bottom: 2%;
 			width: 80%;
@@ -106,16 +115,26 @@
 
 	}
 
+		
+		
+
 		.melanie{
 			
 			text-align: center;
 		}
 				
-			}
+		.ajustes{
+			line-height: 1;
+			text-align: center;
+		}
+
+		.ajustes li:hover{
+			background-color:purple; 
+		}
 
 
 	}
-	    ul,li{
+	    .listastexto{
 	    	text-decoration: underline;
 	    	color: #fff;
 	    	font-weight: bolder;
@@ -143,15 +162,61 @@
 			
 
 }
+
+		.menu-opcoes{
+			text-align: center;
+		}
 		
 
 
 
-	img{
-		width: 50%;
-		border: 5px dashed #EE82EE;
-		border-radius: 50%;
+	 	.imgtexto{
+			width: 50%;
+			border: 5px dashed #EE82EE;
+			border-radius: 50%;
 	}
+
+	/*tela menor que 599px*/
+@media screen and (max-width: 599px) {
+		.container{
+				margin-top:60%;
+	}
+
+	}
+	/*tela maior que 600px*/
+@media screen and (min-width: 600px) {
+    	.container{
+    			margin-top: 40%;
+    }
+	}
+	/*tela maiores que 768*/
+@media screen and (min-width: 768px) {
+		.container{
+				margin-top: 30%;}
+
+				header{
+					background-color: rgba(221,160,221,0.5);
+					flex-direction: row;
+					position:relative;
+				}
+
+				.menu-opcoes{
+					position:absolute;
+					right:5%;
+					top:50%;
+				}
+
+				.menu-opcoes ul li{
+
+					display:inline;
+					margin-left:10px;
+
+				}
+
+
+
+
+		
 
 	
   	
@@ -181,6 +246,12 @@
 	  text-decoration: underline;
 	{
 	}
+
+/*quando a tela for maior que 600px*/
+@media screen and (min-width: 600px) {
+
+
+}
 </style> 
 
 
